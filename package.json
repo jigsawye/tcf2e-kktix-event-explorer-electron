@@ -3,9 +3,19 @@
   "version": "0.0.1",
   "description": "electron demo for taichung frontend event on 12/03.",
   "main": "main.js",
+  "license": "MIT",
+  "repository": "jigsawye/tcf2e-kktix-event-explorer-electron",
   "scripts": {
     "hot-server": "node server.js",
     "start-hot": "HOT=1 NODE_ENV=development electron ."
+  },
+  "author": {
+    "name": "Jigsaw Ye",
+    "email": "jigsaw.ye@gmail.com",
+    "url": "github.com/jigsawye/tcf2e-kktix-event-explorer-electron"
+  },
+  "engines": {
+    "node": ">=4.0.0"
   },
   "bin": {
     "electron": "./node_modules/.bin/electron"
