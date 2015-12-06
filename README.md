@@ -16,7 +16,7 @@ npm run hot-server
 # unix-like
 npm run start-hot
 
-#windows
+# windows
 npm run start-hot:windows
 ```
 
