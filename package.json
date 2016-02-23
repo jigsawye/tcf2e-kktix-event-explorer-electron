@@ -7,7 +7,8 @@
   "repository": "jigsawye/tcf2e-kktix-event-explorer-electron",
   "scripts": {
     "hot-server": "node server.js",
-    "start-hot": "HOT=1 NODE_ENV=development electron ."
+    "start-hot": "HOT=1 NODE_ENV=development electron .",
+    "start-hot:windows": "set HOT=1 && set NODE_ENV=development && electron ."
   },
   "author": {
     "name": "Jigsaw Ye",
